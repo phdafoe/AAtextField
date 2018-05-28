@@ -12,6 +12,8 @@
 		B42F98D520A6DFFB00C89F00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42F98D320A6DFFB00C89F00 /* Main.storyboard */; };
 		B42F98D720A6DFFD00C89F00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42F98D620A6DFFD00C89F00 /* Assets.xcassets */; };
 		B42F98DA20A6DFFD00C89F00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42F98D820A6DFFD00C89F00 /* LaunchScreen.storyboard */; };
+		B495621C20BC569E00B70A90 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495621B20BC569E00B70A90 /* HoshiTextField.swift */; };
+		B495621E20BC56EA00B70A90 /* AATextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495621D20BC56EA00B70A90 /* AATextFieldEffects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B42F98D620A6DFFD00C89F00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B42F98D920A6DFFD00C89F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B42F98DB20A6DFFD00C89F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B495621B20BC569E00B70A90 /* HoshiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		B495621D20BC56EA00B70A90 /* AATextFieldEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AATextFieldEffects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B42F98D620A6DFFD00C89F00 /* Assets.xcassets */,
 				B42F98D820A6DFFD00C89F00 /* LaunchScreen.storyboard */,
 				B42F98DB20A6DFFD00C89F00 /* Info.plist */,
+				B495621B20BC569E00B70A90 /* HoshiTextField.swift */,
+				B495621D20BC56EA00B70A90 /* AATextFieldEffects.swift */,
 			);
 			path = AA_TextField;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B495621E20BC56EA00B70A90 /* AATextFieldEffects.swift in Sources */,
 				B42F98D220A6DFFB00C89F00 /* ViewController.swift in Sources */,
 				B42F98D020A6DFFB00C89F00 /* AppDelegate.swift in Sources */,
+				B495621C20BC569E00B70A90 /* HoshiTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

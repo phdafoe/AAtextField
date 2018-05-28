@@ -9,17 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var myTextField: HoshiTextField!
+    @IBOutlet weak var myPass: HoshiTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        myTextField.placeholder = "Usuario"
+        myTextField.placeholderColor = .darkGray
+        myTextField.borderInactiveColor = .lightGray
+        myTextField.borderActiveColor = .lightGray
+        
+        myPass.placeholder = "Contraseña"
+        myPass.placeholderColor = .darkGray
+        myPass.borderInactiveColor = .lightGray
+        myPass.borderActiveColor = .lightGray
+        myPass.isSecureTextEntry = true
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
+
+
 
