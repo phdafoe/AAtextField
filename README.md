@@ -13,3 +13,26 @@ Se puede personalizar
  3. Características de texto seguro
 
 A disfrutarlo!!
+
+
+``` swift
+
+
+ @IBOutlet weak var myTextField: HoshiTextField!
+    @IBOutlet weak var myPass: HoshiTextField!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        myTextField.placeholder = "Usuario"
+        myTextField.placeholderColor = .darkGray
+        myTextField.borderInactiveColor = .lightGray
+        myTextField.borderActiveColor = .lightGray
+        
+        myPass.placeholder = "Contraseña"
+        myPass.placeholderColor = .darkGray
+        myPass.borderInactiveColor = .lightGray
+        myPass.borderActiveColor = .lightGray
+        myPass.isSecureTextEntry = true
+    }
+
+```
